@@ -1,1 +1,86 @@
+            #maindiv {
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+                border: 6px double gold;
+                padding: 5px 10px 5px 10px;
+            }
+            
+            #content {
+                width: 400px;
+                margin: auto;
+            }
+            
+            h1 {
+                font-style: italic;
+                color: rgb(247, 169, 0);
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            .p1 {
+                width: 300px;
+                text-align: center;
+                margin: auto;
+                font-size: 14px;
+                padding-bottom: 0px;
+            }
+            
+            h4 {
+                text-align: Center;
+                color: rgb(42, 97, 168);
+                font-style: italic;
+                font-size: 24px;
+            }
+            
+            .edate {
+                color: rgb(42, 97, 168);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .datee {
+                font-weight: bold;
+                font-size: 24px;
+            }
+            
+            .daytime {
+                padding: 6px 2px;
+                font-size: 1.2em;
+                border-top: 2pt solid black;
+                border-bottom: 2pt solid black;
+                line-height: 10px;
+
+            }
+            
+            .span1 {
+                  font-family: 'Times New Roman';
+                  line-height: 0px;
+                  margin-left: auto;
+                  margin-right: auto;
+            }
+            .year {
+                color: rgb(42, 97, 168);
+                text-align: center;
+                font-weight: bold;
+                font-size: 18px;
+                padding-top: 1px;
+                padding-left: 6px;
+                font-family: 'Times New Roman';
+                
+            }
+            
+            table {
+                border-collapse: separate;
+                border-spacing: 7px 0px;
+            }
+            
+            .at {
+                text-align: center;
+            }
+            
+            .rsvp {
+                text-align: center;
+                font-style: italic;
+            }
 
