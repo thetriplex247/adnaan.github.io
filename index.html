@@ -2,61 +2,117 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spin-off of "Project: Travel webpage"</title>
-        
+        <title>Project: Event invite</title>
         <style>
-            figcaption {
-                font-size: 13px;
-                background: rgb(105, 191, 240);
+            #maindiv {
+                width: auto;
+                margin-left: auto;
+                border: 6px double gold;
+                padding: 5px 10px 5px 10px;
             }
-            .column {
-                float: left;
-                width: 49%;
-                padding: 2px;
-            }
-            .row::after {
-                content: "";
-                clear: both;
-                display: table;
+            
+            #content {
+                width: 400px;
+                margin: auto;
             }
             
             h1 {
-                color: rgb(212, 133, 7);
+                font-style: italic;
+                color: rgb(247, 169, 0);
+                font-weight: bold;
+                text-align: center;
             }
-            h2 {
-                color: rgb(105, 191, 240);
+            
+            .p1 {
+                width: 300px;
+                text-align: center;
+                margin: auto;
+                font-size: 14px;
+                padding-bottom: 0px;
             }
+            
+            h4 {
+                text-align: Center;
+                color: rgb(42, 97, 168);
+                font-style: italic;
+                font-size: 24px;
+            }
+            
+            .edate {
+                color: rgb(42, 97, 168);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .datee {
+                font-weight: bold;
+                font-size: 24px;
+            }
+            
+            .daytime {
+                padding: 6px 2px;
+                font-size: 1.2em;
+                border-top: 2pt solid black;
+                border-bottom: 2pt solid black;
+                line-height: 10px;
+
+            }
+            
+            .span1 {
+                  font-family: 'Times New Roman';
+                  line-height: 0px;
+                  margin-left: auto;
+                  margin-right: auto;
+            }
+            .year {
+                color: rgb(42, 97, 168);
+                text-align: center;
+                font-weight: bold;
+                font-size: 18px;
+                padding-top: 1px;
+                padding-left: 6px;
+                font-family: 'Times New Roman';
+                
+            }
+            
+            table {
+                border-collapse: separate;
+                border-spacing: 7px 0px;
+            }
+            
+            .at {
+                text-align: center;
+            }
+            
+            .rsvp {
+                text-align: center;
+                font-style: italic;
+            }
+            
         </style>
     </head>
     <body>
-    
-        <h1>Travel to London</h1>
-        <p>London is the capital city of England it is a city with historic values<br>and strong cultrual presence. London should be on every travel entusats<br> bucket list of citys to visit.</p>
-        
-<h2>Places to Visit!</h2>
-        <div class="row">
-  <div class="column">
-    <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/330px-London_Skyline_%28125508655%29.jpeg" alt="river thames" width="205" height="103"> <figcaption>Fig.1 - River Thames, London, UK.</figcaption>
-</figure>
-  </div>
-  <div class="column">
-    <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Houses_of_Parliament_in_2022_alt_crop.jpg/330px-Houses_of_Parliament_in_2022_alt_crop.jpg" alt="river thames" width="205" height="103"> <figcaption>Fig.1 - Westminster, London, UK.</figcaption>
-</figure>
-  </div>
-</div>
+        <div id="maindiv">
+        <div id="content">
+        <h1>You're invited to CodeYourFuture Work-Shop!</h1>
 
-<p>
-    You can visit historic places like Tower Bridge on the River Thames, and <br>Westminster. Be parpared to be amazed by the beauty of this historic city and <br>its offerings. Best times to visit are the summer months of June to August when<br> the weather is nice and warm making your visit a plesent one and one full of<br> adventure.
-</p>
-<h3>Other Places to visit</h3>
-<ol><li>St Paul's</li><li>Canary Wharf</li><li>Nelson's Column</li><li>Westminster Abbey</li></ol>
-
-<h2>Map of London</h2>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/LONDON_post_town_map.svg/250px-LONDON_post_town_map.svg.png" alt="map-of-london" width="560">
-
-        
+        <p class="p1">This is an in person session. You can use this opertunity to get to know the team and other learners plus you can share ideas and get help with areas you are struggling with.</p>
+        <span class="span1">
+        <h4>April</h4>
+           <table class="edate">
+            <tbody>
+                <tr>
+                    <td class="daytime">Saturday</td>
+                    <td class="datee">26</td>
+                    <td class="daytime">AT 10:00</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="year">2025</p>
+        </span>
+        <p class="at">at<br>Bluestar House<br>234-244 Stockwell Road<br>Brixton SW9</p>
+        <p class="rsvp">Kindly RSVP before 24th</p>
+        </div>
+        </div>
     </body>
 </html>
